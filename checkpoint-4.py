@@ -9,7 +9,7 @@ print(family_list)
 post = ('Python Basics', 'Intro guide to python', 'Some cool python content', 'published')
 print (post)
 
-float = 10.82
+float = 10.22
 print(float)
 
 integer = 123
@@ -28,7 +28,7 @@ NK_Olimpija  = {
 print(NK_Olimpija)
 
 # Exercise 2: Round your float up.
-print(round(float))
+print(math.ceil(float))
 
 # Exercise 3: Get the square root of your float.
 print(math.sqrt(float))
